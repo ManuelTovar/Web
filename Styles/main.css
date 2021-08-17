@@ -1,0 +1,102 @@
+html,
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  background-color: teal;
+}
+
+/** navbar **/
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+}
+
+.navbar > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar > ul > li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.navbar li:hover {
+  background-color: blue;
+}
+
+/** csslider **/
+
+#btizquierda {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+
+#btderecha {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
+
+.csslider {
+  background-image: url(https://i.pinimg.com/originals/d9/32/df/d932df7f81cbfb6b3a3a2d86688fc626.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.csslider > ul {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  white-space: nowrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+.csslider > ul > li {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  display: inline-block;
+  white-space: normal;
+  font-size: 16px;
+  color: white;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 50%;
+}

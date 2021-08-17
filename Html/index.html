@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Styles/main.css">
+    <script src="../Js/app.js"></script>
+
+    <title>APInime</title>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <img src="../resources/Icon.png" alt="" style="height: 2rem;">
+
+        <ul>
+            <li>Anime</li>
+            <li>Manga</li>
+            <li>Hits</li>
+        </ul>
+
+        <input type="text" placeholder="Ingresa un anime">
+
+    </div>
+
+    <div class="csslider">
+
+        <ul id="slide">
+            <li>
+                <div class="info">
+                    <h1>Slide 1</h1>
+                    <img src="../resources/ED5.jpg" alt="">
+                    <p>Hola aqui va informacion xdxd</p>
+                </div>
+            </li>
+            <li>
+                <div class="info">
+                    <h1>Slide 2</h1>
+                    <img src="../resources/Icon.png" alt="" style="height: 15.5rem;">
+                    <p>Hola aqui va informacion xdxd</p>
+                </div>
+            </li>
+            <li class="s3">
+                <div class="info">
+                    <h1>Slide 3</h1>
+                    <img src="../resources/ED5.jpg" alt="">
+                    <p>Hola aqui va informacion xdxd</p>
+                </div>
+            </li>
+            <li class="s4">
+                <div class="info">
+                    <h1>Slide 4</h1>
+                    <img src="../resources/Icon.png" alt="" style="height: 15.5rem;">
+                    <p>Hola aqui va informacion xdxd</p>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <button id="btizquierda" onclick="moverIzquierda()"> &lt; </button>
+    <button id="btderecha" onclick="moverDerecha()"> &gt; </button>
+
+    <div class="navigation">
+        <input type="radio" name="r" id="r1" checked onclick="prueba(this.id)" />
+        <input type="radio" name="r" id="r2" onclick="prueba(this.id)" />
+        <input type="radio" name="r" id="r3" onclick="prueba(this.id)" />
+        <input type="radio" name="r" id="r4" onclick="prueba(this.id)" />
+    </div>
+
+</body>
+
+</html>
